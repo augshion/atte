@@ -1,0 +1,139 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    background: #fff;
+    margin: 0 auto;
+    padding: 10px 15px;
+    max-width: 1230px;
+    height: 10%;
+    width: 100%;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+.heder__title {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header__menu {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav a {
+    color: #000;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    /* width: 30%; */
+}
+
+main {
+    margin: 0 auto;
+    padding: 10px 15px;
+    background: #f5f5f5;
+    max-width: 1230px;
+    height: 85%;
+    width: 100%;
+}
+
+.atte__content {
+    /* background: #f5f5f5; */
+    margin-top: 5%;
+}
+
+.atte__message {
+    padding: 20px 20px;
+    /* background: #f5f5f5; */
+}
+
+.atte__message--success {
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+}
+
+.content-inner {
+    width: 55%;
+    margin: 0 auto;
+
+}
+
+.content-inner__top {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.content-inner__bottom {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    padding: 0 0;
+    background: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.content-inner__button-wrap {
+    background: #fff;
+    padding: 20px 20px;
+    width: 47%;
+    height: 120px;
+}
+
+.select__button {
+    font-size: 15px;
+    text-align: center;
+    padding: 28px 0;
+
+}
+
+.footer {
+    background: #fff;
+    margin: 0 auto;
+    padding: 2px 15px;
+    max-width: 1230px;
+    height: 5%;
+    width: 100%;
+}
+
+.footer__inner {
+    margin-top: 3px;
+    display: block;
+    padding: 0;
+    text-align: center;
+}
+
+.footer__small {
+    color: #000;
+}
